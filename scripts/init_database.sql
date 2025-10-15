@@ -33,4 +33,3 @@ GO
 CREATE SCHEMA bronze;  -- Raw data
 CREATE SCHEMA silver;  -- Cleansed and standardized data
 CREATE SCHEMA gold;    -- Business-ready analytical data
-GO
