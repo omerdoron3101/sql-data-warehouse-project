@@ -52,7 +52,6 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
 
-For more details, refer to [docs/requirements.md](docs/requirements.md).
 
 ## 📂 Repository Structure
 ```
@@ -91,9 +90,8 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 👋 Hi! I'm Omer Doron
 I’m a student of Information Systems specializing in Digital Innovation.
-I’m passionate about data, analytics, and transforming raw information into meaningful insights.
+I’m passionate about transforming raw information into meaningful insights.
 
 I created this project as part of my learning journey in data warehousing and analytics, and as a showcase of my technical and analytical skills.
 
-Let’s connect on LinkedIn
- or check out more of my work here on GitHub!
+🔗 [Connect with me on LinkedIn](https://www.linkedin.com/in/omer-doron-a070732b1/)
