@@ -103,7 +103,7 @@ BEGIN
 		PRINT '-----------------------------------------------------------------------------';
 		PRINT 'Loading ERP Tables';
 		PRINT '-----------------------------------------------------------------------------';
-
+		
 		-- ERP Customer Data
 		SET @start_time = GETDATE();
 		PRINT '>> Truncating Table: bronze.erp_cust_az12';
