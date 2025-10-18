@@ -14,7 +14,7 @@
        unavailable during the recreation process.
 
    ============================================================================= */
-
+  
 /* -----------------------------------------------------------------------------
    View: gold.dim_customers
    Purpose:
@@ -108,7 +108,7 @@ CREATE VIEW gold.fact_sales AS
 	SELECT
 		sd.sls_ord_num AS order_number,
 		dp.product_key,
-		dc.customer_id,
+		dc.customer_key,
 		sd.sls_order_dt AS order_date,
 		sd.sls_ship_dt AS shipping_date,
 		sd.sls_due_dt AS due_date,
@@ -121,6 +121,5 @@ CREATE VIEW gold.fact_sales AS
 	LEFT JOIN gold.dim_customers dc
 	ON		  sd.sls_cust_id = dc.customer_id;
 GO
-
 
 
