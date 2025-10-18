@@ -10,7 +10,7 @@
            - Product uniqueness verification
            - Foreign key consistency across fact and dimension tables
    ============================================================================= */
-
+   
 -- 1. Duplicate Check: Customers
 --    Ensures each customer (cst_id) is unique across the integrated dataset.
 SELECT cst_id, COUNT(*)
@@ -79,8 +79,8 @@ HAVING COUNT(*) > 1;
 SELECT *
 FROM gold.fact_sales fs
 LEFT JOIN gold.dim_customers dc
-	ON fs.customer_id = dc.customer_id
-WHERE dc.customer_id IS NULL;
+	ON fs.customer_key = dc.customer_key
+WHERE dc.customer_key IS NULL;
 
 -- 5. Foreign Key Integrity Check: Products
 --    Ensures that every product referenced in the Fact table exists 
