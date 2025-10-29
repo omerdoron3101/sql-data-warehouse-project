@@ -31,5 +31,9 @@ GO
 
 -- Create Medallion Architecture schemas
 CREATE SCHEMA bronze;  -- Raw data
+GO
+
 CREATE SCHEMA silver;  -- Cleansed and standardized data
+GO
+
 CREATE SCHEMA gold;    -- Business-ready analytical data
